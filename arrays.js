@@ -52,4 +52,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let fruitsArrayBlåbær = fruitsArray.indexOf("Blåbær");
     console.log("opgave 7b", fruitsArrayBlåbær);
 
+    // opgave 8
+    
+    let dogsArrayMinusPolly = dogsArray.filter((element) => element != "Polly");
+    console.log(dogsArrayMinusPolly);
+
 }) // ends DOMContentLoaded
