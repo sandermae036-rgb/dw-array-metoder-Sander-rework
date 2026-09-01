@@ -39,4 +39,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let numberArrayMultiplied = numbersArray.map((x) => x * 3);
     console.log("opgave 5", numberArrayMultiplied)
 
+    // opgave 6
+
+    let dogArrayConcatenated = dogsArray.join("")
+    console.log("opgave 6", dogArrayConcatenated);
+
 }) // ends DOMContentLoaded
