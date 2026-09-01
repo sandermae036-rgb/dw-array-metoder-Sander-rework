@@ -9,9 +9,19 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("opgave 1", newNumbers)
 
 
+
     // opgave 2
 
     catsArray.push("Sniffles")
     console.log("opgave 2", catsArray)
+
+
+
+    // opgave 3 
+
+    let dogsArrayTrixie = dogsArray.includes("Trixie");
+    console.log("opgave 3", dogsArrayTrixie)
+
+
 
 }) // ends DOMContentLoaded
