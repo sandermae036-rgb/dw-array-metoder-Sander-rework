@@ -44,4 +44,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let dogArrayConcatenated = dogsArray.join("")
     console.log("opgave 6", dogArrayConcatenated);
 
+    // opgave 7
+
+    let fruitsArrayMango = fruitsArray.indexOf("Mango");
+    console.log("opgave 7a", fruitsArrayMango);
+
 }) // ends DOMContentLoaded
