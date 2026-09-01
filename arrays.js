@@ -20,8 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // opgave 3 
 
     let dogsArrayTrixie = dogsArray.includes("Trixie");
-    console.log("opgave 3", dogsArrayTrixie)
+    console.log("opgave 3a", dogsArrayTrixie)
 
-
+    let dogsArrayBaxter = dogsArray.includes("Baxter");
+    console.log("opgave 3b", dogsArrayBaxter);
 
 }) // ends DOMContentLoaded
