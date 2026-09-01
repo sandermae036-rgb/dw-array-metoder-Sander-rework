@@ -49,4 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let fruitsArrayMango = fruitsArray.indexOf("Mango");
     console.log("opgave 7a", fruitsArrayMango);
 
+    let fruitsArrayBlåbær = fruitsArray.indexOf("Blåbær");
+    console.log("opgave 7b", fruitsArrayBlåbær);
+
 }) // ends DOMContentLoaded
