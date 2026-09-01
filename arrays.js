@@ -34,4 +34,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let catsArraySalem = catsArray.find((element) => element == "Salem");
     console.log("opgave 4", catsArraySalem)
 
+    // opgave 5
+
+    let numberArrayMultiplied = numbersArray.map((x) => x * 3);
+    console.log("opgave 5", numberArrayMultiplied)
+
 }) // ends DOMContentLoaded
