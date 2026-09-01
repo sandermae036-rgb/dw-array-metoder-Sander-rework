@@ -25,4 +25,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let dogsArrayBaxter = dogsArray.includes("Baxter");
     console.log("opgave 3b", dogsArrayBaxter);
 
+
+    // opgave 4
+
+    let catsArrayBagheera = catsArray.find((element) => element == "Bagheera");
+    console.log("opgave 4", catsArrayBagheera)
+
 }) // ends DOMContentLoaded
